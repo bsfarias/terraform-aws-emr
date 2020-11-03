@@ -26,7 +26,7 @@ Projeto cujo objetivo é criar um cluster EMR (AWS) via terraform.
 ```
    - Apply
 ```
-   terraform plan -var subnet_id=<seu id de subnet> -var cluster_name="emr-aws" \
+   terraform apply -var subnet_id=<seu id de subnet> -var cluster_name="emr-aws" \
    -var release_label="emr-5.28.0" -var aws_region=%AWS_DEFAULT_REGION% \
    -var-file="environment.tfvars"
 ```
