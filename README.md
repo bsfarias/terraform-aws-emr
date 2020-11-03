@@ -12,8 +12,6 @@ Projeto cujo objetivo é criar um cluster EMR (AWS) via terraform.
    export AWS_SECRET_ACCESS_KEY=<sua AWS_SECRET_ACCESS_KEY>
    export AWS_DEFAULT_REGION=<sua AWS_DEFAULT_REGION> 
 ```   
-
-## Comandos terraform:
    - Init
 ```
    terraform init
